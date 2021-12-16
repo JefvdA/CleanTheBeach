@@ -5,12 +5,15 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 6f;
+    [SerializeField] private float airMultiplier = 0.4f;
+    [SerializeField] private float jumpForce = 5f;
 
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
     private Rigidbody _rb;
-    private float rbDrag = 6f;
+    private float groundDrag = 6f;
+    private float airDrag = 1f;
 
     private void Start()
     {
@@ -27,12 +30,22 @@ public class PlayerMovement : MonoBehaviour
         var moveInput = InputValuesManager.MoveDirection * moveSpeed;
         var moveDirection = moveInput.x * transform.right + moveInput.y * transform.forward;
 
-        _rb.AddForce(moveDirection.normalized * moveSpeed, ForceMode.Acceleration);
+        if(IsGrounded())
+            _rb.AddForce(moveDirection.normalized * moveSpeed, ForceMode.Acceleration);
+        else
+            _rb.AddForce(moveDirection.normalized * (moveSpeed * airMultiplier), ForceMode.Acceleration);
+        
+        if(InputValuesManager.IsJumping && IsGrounded())
+            _rb.AddForce(transform.up * jumpForce, ForceMode.VelocityChange);
+        
     }
 
     private void ControlDrag()
     {
-        _rb.drag = rbDrag;
+        if (IsGrounded())
+            _rb.drag = groundDrag;
+        else
+            _rb.drag = airDrag;
     }
 
     private bool IsGrounded()

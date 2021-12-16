@@ -4,11 +4,23 @@ using UnityEngine.InputSystem;
 
 public class InputManager : MonoBehaviour
 {
+    private PlayerInput _playerInput;
+    private InputAction _jumpAction;
+    
     private void Start()
     {
         // Lock and hide cursor for First Person 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        
+        // Get the PlayerInput component
+        _playerInput = GetComponent<PlayerInput>();
+        _jumpAction = _playerInput.actions["Jump"];
+    }
+
+    private void Update()
+    {
+        InputValuesManager.IsJumping = _jumpAction.IsPressed();
     }
 
     private void OnMove(InputValue value)
@@ -21,10 +33,5 @@ public class InputManager : MonoBehaviour
     {
         var data = value.Get<Vector2>();
         InputValuesManager.MouseRotation = data;
-    }
-
-    private void OnJump(InputValue value)
-    {
-        print("Jump");
     }
 }
