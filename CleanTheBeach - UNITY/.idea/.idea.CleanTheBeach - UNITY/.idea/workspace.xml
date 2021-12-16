@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c7b03ae-6618-4a15-b0d5-124812091c70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +20,17 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/1f/a78ff419/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/InputValuesManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trash.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="223FTO6R6QYnl2NeWKbA2eomtUp" />
@@ -73,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639058375716</updated>
       <workItem from="1639058389772" duration="11000" />
-      <workItem from="1639656762093" duration="3514000" />
+      <workItem from="1639656762093" duration="4455000" />
     </task>
     <servers />
   </component>
@@ -82,6 +86,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
