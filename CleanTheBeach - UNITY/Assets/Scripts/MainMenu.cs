@@ -1,0 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenu : MonoBehaviour
+{
+
+    public string firstLevel;
+    public string secondLevel;
+
+    public void StartLevel1()
+    {
+        SceneManager.LoadScene(firstLevel);
+    }
+    public void StartLeevl2()
+    {
+        SceneManager.LoadScene(secondLevel);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quitting game");
+    }
+}
