@@ -6,6 +6,7 @@ public class InputManager : MonoBehaviour
 {
     private PlayerInput _playerInput;
     private InputAction _jumpAction;
+    private InputAction _sprintAction;
     
     private void Start()
     {
@@ -16,11 +17,13 @@ public class InputManager : MonoBehaviour
         // Get the PlayerInput component
         _playerInput = GetComponent<PlayerInput>();
         _jumpAction = _playerInput.actions["Jump"];
+        _sprintAction = _playerInput.actions["Sprint"];
     }
 
     private void Update()
     {
         InputValuesManager.IsJumping = _jumpAction.IsPressed();
+        InputValuesManager.IsSprinting = _sprintAction.IsPressed();
     }
 
     private void OnMove(InputValue value)
@@ -32,6 +35,6 @@ public class InputManager : MonoBehaviour
     private void OnLook(InputValue value)
     {
         var data = value.Get<Vector2>();
-        InputValuesManager.MouseRotation = data;
+        InputValuesManager.LookRotation = data;
     }
 }

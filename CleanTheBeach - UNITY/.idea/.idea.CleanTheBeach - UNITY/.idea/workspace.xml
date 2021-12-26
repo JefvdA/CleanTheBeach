@@ -3,6 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="4c7b03ae-6618-4a15-b0d5-124812091c70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CleanTheBeach.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CleanTheBeach.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/GroundMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/GroundMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/POLYGON city pack/Prefabs/Buildings/Build_G-Left_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/POLYGON city pack/Prefabs/Buildings/Build_G-Left_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Packages/POLYGON city pack/Prefabs/Buildings/Build_G-middle_Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/POLYGON city pack/Prefabs/Buildings/Build_G-middle_Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InputManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/InputManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InputManager.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/InputManager.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputValuesManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputValuesManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MouseLook.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,15 +40,20 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5A41D6B7-1898-42EC-A409-FD0B1C3E3DCF/1f/a78ff419/Void.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Trash.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FPSCameraFollow.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveCamera.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputValuesManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerLook.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Trash.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/WallRun.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="223FTO6R6QYnl2NeWKbA2eomtUp" />
@@ -78,6 +101,9 @@
       <updated>1639058375716</updated>
       <workItem from="1639058389772" duration="11000" />
       <workItem from="1639656762093" duration="4455000" />
+      <workItem from="1640338186940" duration="863000" />
+      <workItem from="1640555132063" duration="2338000" />
+      <workItem from="1640558088811" duration="1890000" />
     </task>
     <servers />
   </component>
@@ -96,6 +122,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
