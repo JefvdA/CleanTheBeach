@@ -22,6 +22,11 @@ public class ScoreManager : MonoBehaviour
         scoreText.text = score.ToString() + " POINTS";
     }
 
+    void Update()
+    {
+        scoreText.text = score.ToString() + " POINTS";
+    }
+
     public void AddPoint()
     {
         score++;
