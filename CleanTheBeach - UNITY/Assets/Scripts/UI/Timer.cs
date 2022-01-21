@@ -6,24 +6,20 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-
-    public string GameEnded;
-
-    public float timeStart = 60;
+    public string load;
+    public float timeLeft = 60f;
     public Text textBox;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        textBox.text = timeStart.ToString();
-    }
 
     // Update is called once per frame
     void Update()
     {
-        if (timeStart <= 0)
-            SceneManager.LoadScene(GameEnded);
-        timeStart -= Time.deltaTime;
-        textBox.text = Mathf.Round(timeStart).ToString();
+        timeLeft -= Time.deltaTime;
+        textBox.text = (timeLeft).ToString("0");
+        if (timeLeft <= 0)
+        {
+            timeLeft = 0;
+            Cursor.visible = true;
+            SceneManager.LoadScene(load);
+        }
     }
 }
