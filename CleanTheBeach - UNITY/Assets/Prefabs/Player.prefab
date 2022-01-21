@@ -186,8 +186,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wr: {fileID: 6658026256877484897}
-  sensX: 50
-  sensY: 50
+  sensX: 150
+  sensY: 150
   cam: {fileID: 0}
   orientation: {fileID: 6658026256862275944}
 --- !u!114 &6658026256877484897
