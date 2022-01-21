@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7b03ae-6618-4a15-b0d5-124812091c70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Packages/POLYGON city pack/Prefabs/Props/bench prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Packages/POLYGON city pack/Prefabs/Props/bench prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trash/Wood.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trash/Wood.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trash.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +23,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/WallRun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trash.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/WallRun.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -95,6 +92,7 @@
       <workItem from="1640558088811" duration="1890000" />
       <workItem from="1642173335499" duration="5047000" />
       <workItem from="1642776350553" duration="58000" />
+      <workItem from="1642782463185" duration="811000" />
     </task>
     <servers />
   </component>
