@@ -631,6 +631,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1363837805}
     m_Modifications:
+    - target: {fileID: 355948118714588250, guid: bfd81249009789742b792e7fa88fc202, type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 355948118714588250, guid: bfd81249009789742b792e7fa88fc202, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 355948118714588250, guid: bfd81249009789742b792e7fa88fc202, type: 3}
+      propertyPath: m_Size.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 355948118714588250, guid: bfd81249009789742b792e7fa88fc202, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3744581867219603820, guid: bfd81249009789742b792e7fa88fc202, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2986,6 +3002,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1363837805}
     m_Modifications:
+    - target: {fileID: -6973487330835523689, guid: adc2706e95def0e4abf6d189ed2d9366, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -6973487330835523689, guid: adc2706e95def0e4abf6d189ed2d9366, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -6973487330835523689, guid: adc2706e95def0e4abf6d189ed2d9366, type: 3}
+      propertyPath: m_Size.z
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6114946429619764501, guid: adc2706e95def0e4abf6d189ed2d9366, type: 3}
       propertyPath: m_Name
       value: BottleOfWater
