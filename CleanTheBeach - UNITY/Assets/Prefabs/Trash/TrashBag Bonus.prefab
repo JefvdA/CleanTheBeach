@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7f32ca6c06e84044a49047b5caeb5c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Time: 2
+  Time: 10
 --- !u!122 &2047738272830877316
 Halo:
   m_ObjectHideFlags: 0
@@ -156,8 +156,8 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4278190335
-  m_Size: 0.5
+    rgba: 4278255412
+  m_Size: 0.8
 --- !u!65 &36031433021005017
 BoxCollider:
   m_ObjectHideFlags: 0
