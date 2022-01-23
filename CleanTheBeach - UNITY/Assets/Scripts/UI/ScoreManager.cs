@@ -9,22 +9,38 @@ public class ScoreManager : MonoBehaviour
 
     public Text scoreText;
 
+    public bool BonusActivated = false;
+
     private int score = 0;
+
+    private float time = 0f;
 
     private void Awake()
     {
         instance = this;
     }
 
-    // Start is called before the first frame update
-
     void Update()
     {
         scoreText.text = score.ToString() + " POINTS";
+        time -= Time.deltaTime;
+        if (time <= 0)
+        {
+            BonusActivated = false;
+        }
     }
 
     public void AddPoint()
     {
         score++;
+        if (BonusActivated) 
+        {
+            score++;
+        }
+
+    }
+    public void SetTime(float time)
+    {
+        this.time = time;
     }
 }
