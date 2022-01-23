@@ -17,8 +17,6 @@ public class Timer : MonoBehaviour
         textBox.text = (timeLeft).ToString("0");
         if (timeLeft <= 0)
         {
-            timeLeft = 0;
-            Cursor.visible = true;
             SceneManager.LoadScene(load);
         }
     }
