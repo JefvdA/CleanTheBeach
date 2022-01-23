@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class test : MonoBehaviour
+public class ShowScore : MonoBehaviour
 {
     public Text Score;
     // Start is called before the first frame update
