@@ -8,6 +8,7 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager instance;
 
     public Text scoreText;
+    public Text TimerText;
 
     public bool BonusActivated = false;
 
@@ -27,7 +28,11 @@ public class ScoreManager : MonoBehaviour
         if (time <= 0)
         {
             BonusActivated = false;
+            TimerText.text = "";
         }
+        else
+            TimerText.text = (time).ToString("0") + "s left";
+
     }
 
     public void AddPoint()
