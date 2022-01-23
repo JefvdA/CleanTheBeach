@@ -13,22 +13,16 @@ public class ShowScore : MonoBehaviour
         int.TryParse(ScoreManager.instance.scoreText.text[0].ToString(),out score);
         if(score == 0)
         {
-            Score.text = "Not Good, you Picked up " + score + " Pieces of trash";
+            Score.text = "Not Good\n you Picked up " + score + " Pieces of trash";
         }
         if (score == 1)
         {
-            Score.text = "Not Good, you Picked up " + score + " Piece of trash";
+            Score.text = "Not Good\n you Picked up " + score + " Piece of trash";
         }
         else
         {
-            Score.text = "Congratulations, you Picked up " + score + " Pieces of trash";
+            Score.text = "Congratulations\n you Picked up " + score + " Pieces of trash";
         }
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

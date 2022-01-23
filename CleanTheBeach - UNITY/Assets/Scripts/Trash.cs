@@ -12,6 +12,5 @@ public class Trash : MonoBehaviour
         ScoreManager.instance.AddPoint();
         //print("Trash pickup up!");
         Destroy(gameObject.transform.parent.gameObject);
-        //transform.position = new Vector3(UnityEngine.Random.Range(5, 45), 4.5f, UnityEngine.Random.Range(0, 24));
     }
 }
