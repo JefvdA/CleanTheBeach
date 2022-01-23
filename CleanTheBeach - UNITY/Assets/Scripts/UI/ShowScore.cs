@@ -9,8 +9,7 @@ public class ShowScore : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int score = 0;
-        int.TryParse(ScoreManager.instance.scoreText.text[0].ToString(),out score);
+        float score = ScoreManager.instance.GetScore();
         if(score == 0)
         {
             Score.text = "Not Good\n you Picked up " + score + " Pieces of trash";

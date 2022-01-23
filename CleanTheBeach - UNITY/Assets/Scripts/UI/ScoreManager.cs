@@ -48,4 +48,8 @@ public class ScoreManager : MonoBehaviour
     {
         this.time = time;
     }
+    public float GetScore()
+    {
+        return score;
+    }
 }
