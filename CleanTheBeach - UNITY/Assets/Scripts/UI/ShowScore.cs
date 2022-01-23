@@ -22,6 +22,5 @@ public class ShowScore : MonoBehaviour
         {
             Score.text = "Congratulations\n you Picked up " + score + " Pieces of trash";
         }
-
     }
 }

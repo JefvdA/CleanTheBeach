@@ -155,8 +155,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5010ca6a5b79d204499468fa12ae32e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevel: CityLevel
-  secondLevel: BeachLevel
+  firstLevel: BeachLevel
+  secondLevel: CityLevel
 --- !u!114 &67960745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1197,7 +1197,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 1
+  m_Text: Beach Level
 --- !u!222 &2069436086
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1277,7 +1277,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Level 2
+  m_Text: CityLevel
 --- !u!222 &2134345869
 CanvasRenderer:
   m_ObjectHideFlags: 0
