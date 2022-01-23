@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4c7b03ae-6618-4a15-b0d5-124812091c70" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Trash/Wood.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Trash/Wood.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Trash.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityLevel.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/WallRun.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerLook.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Trash.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/TutorialScreen.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="223FTO6R6QYnl2NeWKbA2eomtUp" />
@@ -93,6 +94,9 @@
       <workItem from="1642173335499" duration="5047000" />
       <workItem from="1642776350553" duration="58000" />
       <workItem from="1642782463185" duration="811000" />
+      <workItem from="1642951388736" duration="41000" />
+      <workItem from="1642952744684" duration="47000" />
+      <workItem from="1642953211182" duration="40000" />
     </task>
     <servers />
   </component>
