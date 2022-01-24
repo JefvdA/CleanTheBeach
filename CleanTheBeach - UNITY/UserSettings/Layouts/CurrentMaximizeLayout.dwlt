@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 2100
+  controlID: 5815
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 2083
+  controlID: 5805
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 2084
+  controlID: 5806
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,21 +226,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7833fdffe233fdff4034fdffee3bfdff185afdff1a5cfdffb6a6feff28a9feffaaeafeff2cfbffff80a30600
+      m_ExpandedIDs: 58cafbfff2d0fbff56d5fbff881afdffec1ffdff4034fdffee3bfdff185afdff1a5cfdffb6a6feff28a9feffaaeafeff2cfbffff80a306002caa0600a0870700
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: UI
-        m_OriginalName: UI
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -183432
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
@@ -502,9 +502,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 35.614716, y: 12.27035, z: 29.383183}
+    m_Target: {x: 552.7923, y: 459.302, z: -614.3555}
     speed: 2
-    m_Value: {x: 35.614716, y: 12.27035, z: 29.383183}
+    m_Value: {x: 552.7923, y: 459.302, z: -614.3555}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -551,9 +551,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.07494877, y: 0.9152254, z: -0.2011175, w: -0.34104735}
+    m_Target: {x: -0.19830222, y: -0.042036436, z: 0.008510689, w: -0.9792115}
     speed: 2
-    m_Value: {x: -0.07494816, y: 0.915218, z: -0.20111588, w: -0.34104457}
+    m_Value: {x: -0.1983004, y: -0.04203605, z: 0.008510611, w: -0.9792025}
   m_Size:
     m_Target: 6.5596385
     speed: 2
@@ -601,8 +601,8 @@ MonoBehaviour:
     y: 530
     width: 1508
     height: 417
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -650,21 +650,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sound
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sound
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity projects\CleanTheBeach\CleanTheBeach - UNITY
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 54cd0000
-    m_LastClickedID: 52564
+    m_SelectedIDs: 4ecd0000
+    m_LastClickedID: 52558
     m_ExpandedIDs: 0000000014cd000016cd000018cd000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -718,9 +718,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5433fdff
-    m_LastClickedInstanceID: -183468
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: c0e90700
+    m_LastClickedInstanceID: 518592
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -837,7 +837,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -183468
+  m_LastInspectedObjectInstanceID: 518592
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c7b03ae-6618-4a15-b0d5-124812091c70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CleanTheBeach - UNITY/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BeachLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BeachLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelCompleted.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelCompleted.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +44,14 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Trash.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/UI/TutorialScreen.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player/WallRun.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/UI/ShowLevelCompletedBg.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="223FTO6R6QYnl2NeWKbA2eomtUp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -98,6 +107,7 @@
       <workItem from="1642953533351" duration="621000" />
       <workItem from="1642964761528" duration="48000" />
       <workItem from="1642964853594" duration="893000" />
+      <workItem from="1643012810237" duration="927000" />
     </task>
     <servers />
   </component>
