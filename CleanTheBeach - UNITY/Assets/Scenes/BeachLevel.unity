@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.39367113, g: 0.4099586, b: 0.40313393, a: 1}
+  m_IndirectSpecularColor: {r: 0.39367142, g: 0.4099589, b: 0.4031342, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -921,6 +921,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1999505514, guid: d8c39a7323f37ac498d698d3c4ba4c02, type: 3}
+      propertyPath: m_Volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999505514, guid: d8c39a7323f37ac498d698d3c4ba4c02, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: a663569e26835c2408076be861a1bfe0, type: 3}
     - target: {fileID: 6658026256877484896, guid: d8c39a7323f37ac498d698d3c4ba4c02, type: 3}
       propertyPath: cam
       value: 
@@ -3407,8 +3415,8 @@ Camera:
   m_GameObject: {fileID: 2070302930}
   m_Enabled: 0
   serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 1}
   m_projectionMatrixMode: 0
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3429,7 +3437,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967279
   m_RenderingPath: 1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -3448,8 +3456,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070302930}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 5.021815, y: -101.74567, z: -33.09552}
+  m_LocalRotation: {x: 0.07493924, y: 0.91521865, z: 0.20111923, w: -0.34104258}
+  m_LocalPosition: {x: 43.409058, y: -9.630622, z: 38.389336}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
