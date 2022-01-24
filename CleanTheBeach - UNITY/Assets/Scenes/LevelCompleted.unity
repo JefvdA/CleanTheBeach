@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -194,7 +194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Level 2
+  m_Text: CityLevel
 --- !u!222 &46560674
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -274,7 +274,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Level 1
+  m_Text: BeachLevel
 --- !u!222 &237889216
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -593,7 +593,7 @@ GameObject:
   - component: {fileID: 871517613}
   - component: {fileID: 871517612}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Bg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1189,8 +1189,9 @@ GameObject:
   - component: {fileID: 1813098256}
   - component: {fileID: 1813098255}
   - component: {fileID: 1813098260}
+  - component: {fileID: 1813098261}
   m_Layer: 5
-  m_Name: Main Menu
+  m_Name: LevelCompleted
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1208,8 +1209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5010ca6a5b79d204499468fa12ae32e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevel: CityLevel
-  secondLevel: BeachLevel
+  firstLevel: BeachLevel
+  secondLevel: CityLevel
 --- !u!114 &1813098256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1309,3 +1310,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Score: {fileID: 640805899}
+--- !u!114 &1813098261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813098254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f75b6a622af4317b4fd1a88056da3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cityBg: {fileID: 21300000, guid: 99c7413b4a7d3af40983ebae2d8b3c87, type: 3}
+  beachBg: {fileID: 21300000, guid: 837d04fe80b008946b0da762c076d75b, type: 3}
+  bgImage: {fileID: 871517612}

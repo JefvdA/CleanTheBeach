@@ -9,11 +9,9 @@ public class ScoreManager : MonoBehaviour
 
     public Text scoreText;
     public Text TimerText;
-
     public bool BonusActivated = false;
 
     private int score = 0;
-
     private float time = 0f;
 
     private void Awake()
@@ -24,15 +22,17 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         scoreText.text = score.ToString() + " POINTS";
-        time -= Time.deltaTime;
-        if (time <= 0)
+        if (BonusActivated)
         {
-            BonusActivated = false;
-            TimerText.text = "";
+            time -= Time.deltaTime;
+            if (time <= 0)
+            {
+                BonusActivated = false;
+                TimerText.text = "";
+            }
+            else
+                TimerText.text = (time).ToString("0") + "s left";
         }
-        else
-            TimerText.text = (time).ToString("0") + "s left";
-
     }
 
     public void AddPoint()
@@ -42,7 +42,6 @@ public class ScoreManager : MonoBehaviour
         {
             score++;
         }
-
     }
     public void SetTime(float time)
     {
